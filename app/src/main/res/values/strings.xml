@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">loginAPP</string>
+    <string name="login">Login</string>
+    <string name="conti">Please sing in to continue.</string>
+    <string name="Email">E-mail</string>
+    <string name="Pass">Password</string>
+    <string name="SIGN_IN">SIGN IN</string>
+    <string name="mes">Don’t have an account?</string>
+    <string name="Sign_up"> Sign up</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+</resources>
