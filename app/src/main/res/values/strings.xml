@@ -4,8 +4,14 @@
     <string name="conti">Please sing in to continue.</string>
     <string name="Email">E-mail</string>
     <string name="Pass">Password</string>
-    <string name="SIGN_IN">SIGN IN</string>
+    <string name="sign_in">SIGN IN</string>
     <string name="mes">Don’t have an account?</string>
     <string name="Sign_up"> Sign up</string>
-    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="create_sub">Create a new account</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="age">Over 18?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="already">Already have an account?</string>
 </resources>
