@@ -130,7 +130,7 @@ fun DefaultPreview() {
                         colors = ButtonDefaults.buttonColors(Color(207, 6, 240))
                     ) {
                         Text(
-                            text = stringResource(id = R.string.SIGN_IN),
+                            text = stringResource(id = R.string.Sign_up),
                             color = Color.White,
                             fontWeight = FontWeight.Bold
                         )
