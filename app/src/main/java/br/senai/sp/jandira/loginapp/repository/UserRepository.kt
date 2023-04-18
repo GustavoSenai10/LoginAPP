@@ -4,6 +4,7 @@ import android.content.Context
 import android.provider.ContactsContract.CommonDataKinds.Email
 import br.senai.sp.jandira.loginapp.dao.TripDb
 import br.senai.sp.jandira.loginapp.model.User
+import java.net.PasswordAuthentication
 
 class UserRepository(context: Context) {
 
@@ -14,5 +15,9 @@ class UserRepository(context: Context) {
     }
     fun findUserByEmail(email: String):User{
         return db.userDao().findUserByEmail(email)
+    }
+
+    fun authenticate (email: String,password:String):User{
+        return db.userDao().authenticate(email,password)
     }
 }
